@@ -1,0 +1,40 @@
+link repositório:
+
+https://github.com/EdgarKM/dio-desafio-github.git
+
+comandos interessantes:
+
+"cd" ou "change directory" 
+
+"git init" inicia um repositório
+
+"git clone"  ex: git clone <https://url-do-link>. Clona um repositório. 
+
+	para desvincular do original:
+
+		git remote rm origin
+
+"git branch" cria uma ramificação/branch. ex: git branch <nome-da-branch>.
+
+						git push -u <remote> <nome-da-branch>
+							Para ver as branchs: 
+									git branch 
+									ou
+									git branch --list
+						deletar branch ex:
+							git branch -d <nome-da-branch>
+						mudar de branch:
+							git checkout <nome-da-ramificação>
+
+"git status" da informações de status
+
+"git add <arquivo>" adiciona arquivo ou "git add -A" add todos arquivos
+
+**git commit -m "mensagem explicando a mudança no código"** comitar, ou criar versão de repositório. 
+
+"git push <remote> <nome-do-branch>" envia para o repositório as alterações.
+
+"git pull" puxa informações do local de referência.
+
+"git merge <nome-da-branch>" mescla branches
+
