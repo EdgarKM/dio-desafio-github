@@ -28,13 +28,18 @@ comandos interessantes:
 
 "git status" da informações de status
 
-"git add <arquivo>" adiciona arquivo ou "git add -A" add todos arquivos
+"git add <arquivo>" adiciona arquivo ou "git add -A" ou "git add ." add todos arquivos
 
 **git commit -m "mensagem explicando a mudança no código"** comitar, ou criar versão de repositório. 
 
 "git push <remote> <nome-do-branch>" envia para o repositório as alterações.
 
+
+
 "git pull" puxa informações do local de referência.
 
 "git merge <nome-da-branch>" mescla branches
+
+"git push origin main" manda as alterações commitadas para o repositório main
+
 
